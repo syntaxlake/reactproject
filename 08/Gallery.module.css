@@ -1,0 +1,27 @@
+.btDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btDiv > button {
+    margin-left: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
